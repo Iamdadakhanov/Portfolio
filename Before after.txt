@@ -1,0 +1,53 @@
+Nav Underline
+
+.nav a{
+   position: relative;
+
+   &::after{
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom:-6px;
+      width: 100%;
+      height: 3px;
+      background-color: $accent;
+      border-radius: 5px;
+      transform-origin: left;
+      transform: scalex(0);
+      transition: transform .5s;
+   }
+
+   &:hover::after{
+      transform: scaleX(1);
+   }
+}
+
+
+Icon before text
+
+.info{
+   position: relative;
+   font-size: 18px;
+   font-weight: 400;
+
+   padding-left: 35px;
+
+   &::before{
+      content: "";
+      
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 21px;
+      height: 21px;
+      
+      background-image: url('./../img/header/map.svg');
+      background-repeat: no-repeat;
+      
+   }
+
+   &-tel::before{
+      background-image: url('./../img/header/phone.svg');
+      background-repeat: no-repeat;
+   }
+}

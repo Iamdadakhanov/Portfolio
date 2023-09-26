@@ -1,0 +1,13 @@
+https://animista.net/play/attention/bounce
+https://www.colorzilla.com/gradient-editor/
+https://cssgradient.io/
+https://fonts.google.com/
+
+Фрилансер по жизни
+
+https://fls.guru/flexbox.html       Flex shpargalka
+https://fls.guru/cssposition.html   CSS позиционирование
+https://fls.guru/cssanimation.html  CSS анимация
+https://fls.guru/slick.html         Slider
+https://fls.guru/grid.html	    Grid
+https://fls.guru/gulp.html	    Части Gulp сценария
